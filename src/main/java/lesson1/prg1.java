@@ -3,6 +3,7 @@ package lesson1;
 public class prg1 {
 
     public static void main(String[] args){
+
 // Задание 1
         System.out.println(metod1(2f,2f,6f,3f));
 // Задание 2
@@ -45,9 +46,7 @@ public class prg1 {
         boolean b = false;
         if (a % 400 == 0 ) {
             b = true;
-        }else if (a % 100 == 0) {
-            b = false;
-        }else if (a % 4 == 0) {
+        }else if ((a % 4 == 0) || (a % 100 != 0)){
             b = true;
         }
         return b;
