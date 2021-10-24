@@ -8,15 +8,15 @@ public class lesson2 {
 
 // Задание 1
         System.out.println("Задание 1");
-        //Metod1();
+        Metod1();
 
 // Задание 2
         System.out.println("Задание 2");
-        //Metod2();
+        Metod2();
 
 // Задание 3
         System.out.println("Задание 3");
-        //Metod3();
+        Metod3();
 
 // Задание 4
         System.out.println("Задание 4");
@@ -24,15 +24,15 @@ public class lesson2 {
 
 // Задание 5
         System.out.println("Задание 5");
-        //System.out.println(Metod5(new int[]{1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1}));
+        System.out.println(Metod5(new int[]{1, 5, 3, 2, 11, 4, 5, 2, 4, 8, 9, 1}));
 
 // Задание 6
         System.out.println("Задание 6");
-        //System.out.println(Metod6(new int[]{2, 2, 2, 1, 2, 2, 10, 1}));
+        System.out.println(Metod6(new int[]{2, 2, 2, 1, 2, 2, 10, 1}));
 
 // Задание 7
         System.out.println("Задание 7");
-        //printArrayVar1(Metod7(new int[]{5,3,1,7,6},-2));
+        printArrayVar1(Metod7(new int[]{5,3,1,7,6},-2));
     }
 
     public static int[] Metod7(int[] arr, int n) {
