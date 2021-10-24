@@ -32,7 +32,7 @@ public class lesson2 {
 
 // Задание 7
         System.out.println("Задание 7");
-        printArrayVar1(Metod7(new int[]{5,3,1,7,6},-2));
+        printArrayVar1(Metod7(new int[]{3, 5, 6, 1},-2));
     }
 
     public static int[] Metod7(int[] arr, int n) {
@@ -47,13 +47,12 @@ public class lesson2 {
     public static int[] SdvigNaOdin(int [] arr) {
         int temp = arr[arr.length -1];
         int temp2;
-        for(int i=0; i < arr.length -2; i += 2) {
+        for(int i=0; i <= arr.length -2; i += 2) {
             temp2 = arr[i+1];
             arr[i+1] = arr[i];
             arr[i] = temp;
             temp = temp2;
         }
-       arr[arr.length -1] = temp;
        return arr;
     }
 
