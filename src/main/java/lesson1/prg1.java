@@ -16,6 +16,7 @@ public class prg1 {
         metod5("Илья");
 // Задание 6
         System.out.println(metod6(1504));
+
     }
 
     public static float metod1(float a, float b, float c, float d) {
