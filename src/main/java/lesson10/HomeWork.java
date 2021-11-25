@@ -3,11 +3,6 @@ package lesson10;
 import java.util.*;
 
 public class HomeWork {
-    
-    static int max_Length_Array = 30;
-    static String[] words = {"apple", "orange", "lemon", "banana",  "cherry","kiwi", "mango"};
-    static List<String> array_of_words = new ArrayList<>();
-    static Map<String, Integer> array_of_unique_words = new HashMap<>();
 
     public static void main (String[] args) {
 
